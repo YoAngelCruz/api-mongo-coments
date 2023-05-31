@@ -11,7 +11,7 @@ app.use(cors());
 mongoose.connect('mongodb+srv://yoangelcruz:Ccam0810.@nosql.ukb8ydb.mongodb.net/?retryWrites=true&w=majority',{
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  dbName: 'nosql' // Reemplaza con el nombre real de tu base de datos
+  dbName: 'bdnosql' // Reemplaza con el nombre real de tu base de datos
 });
 
 // Middleware para analizar datos JSON en las solicitudes
